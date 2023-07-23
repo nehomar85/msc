@@ -613,22 +613,22 @@ button[style*="display: inline"] {
   margin: 0 auto;
 }
 #bodyBg-login {
-  background-image: url("msc/images/ship/msc_ship_login.jpg");
+  background-image: url("images/ship/msc_ship_login.jpg");
 }
 #bodyBg-register, #bodyBg-recovery {
-  background-image: url("msc/images/ship/msc_ship_register.jpg");
+  background-image: url("images/ship/msc_ship_register.jpg");
 }
 #bodyBg-menu-1 {
-  background-image: url("msc/images/ship/msc_ship1.jpg");
+  background-image: url("images/ship/msc_ship1.jpg");
 }
 #bodyBg-menu-2 {
-  background-image: url("msc/images/ship/msc_ship2.jpg");
+  background-image: url("images/ship/msc_ship2.jpg");
 }
 #bodyBg-menu-3 {
-  background-image: url("msc/images/ship/msc_ship3.jpg");
+  background-image: url("images/ship/msc_ship3.jpg");
 }
 #bodyBg-menu-4 {
-  background-image: url("msc/images/ship/msc_ship4.jpg");
+  background-image: url("images/ship/msc_ship4.jpg");
 }
 
 
