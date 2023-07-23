@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" sizes="16x16" href="images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" data-preload="true" rel="stylesheet" type="text/css" crossorigin="anonymous">
+    <link href="css/layout.css" data-preload="true" rel="stylesheet" type="text/css" crossorigin="anonymous">
+    <!-- <link href="css/main.css" rel="stylesheet"> -->
+    <link href="css/icomoon.css" data-preload="true" rel="stylesheet" type="text/css" crossorigin="anonymous">
+    <!--script type="text/javascript" async="" src="js/analytics.js" nonce="+YnHhlWzGipF646KnnYqzQ=="></script-->
+    <script- type="text/javascript" async="" src="js/main.js"></script>
+
+    <!--script type="text/javascript" async="" src="js/analytics.js" nonce="+YnHhlWzGipF646KnnYqzQ=="></script-->
+    <script- async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-N5L24Z3"></script>
+    <!--script async="" src="js/gtm.js"></script-->
+    <script language="javascript" src="js/MSC.utilidades"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- <script>
+        $(function(){
+          $("#header").load("/template/menu.html");
+        //   $("#footer").load("footer.html");
+        });
+    </script> -->
+
+    <!-- <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>MSC Company</title>
+</head>
+<body id="bodyBg-login">
+    <div class="container-fluid">
+        <header id="headerLayout" class="d-flex flex-wrap align-items-center justify-content-center py-3 mb-4">
+            <nav class="navbar-default navbar-static-top navbar-light">
+                <div class="navbar-header">
+                    <span id="logo"></span>
+                </div>
+                <div class="fw-bolder text-dark">
+                    MSC COLOMBIA
+                </div>
+            </nav>
+        </header>
+    </div><br>
+
+    <div class="container-fluid">
+        <div class="row g-5">
+            <section id="bodySection">
+                <div class="container-fluid">
+
+               <div id="registrationForm" class="loginForm">
+                     <div class="card offset-0 col-10 bottom-align login" id="boxContainer">
+                        <div class="card-body">
+                           <div id="api" data-name="Unified" class="divStepRegistration">
+                              <form name="F" action="TERCEROS_WEB_MODIFICACION.html" method="#">
+                              <!-- <form name="F" action="MSC.SOLICITUD_FACTURA" method="post"> -->
+                                 <input type="hidden" name="paccion" >
+                                 <div class="intro">
+                                    <h5>BIENVENIDO AL PORTAL <br/> DE PAGOS PSE MSC</h5>
+                                 </div>
+                                 <div class="error pageLevel" aria-hidden="true" role="alert" style="display: none;">
+                                    <p></p>
+                                 </div>
+                                 <div class="entry">
+                                    <div class="entry-item">
+                                       <div class="row align-items-center">
+                                          <div class="col-md-4">
+                                                <label for="signInName" class="fw-bold">NIT</label>
+                                          </div>
+                                          <div class="col-md-8">
+                                                <input type="text" id="PTWEB_NIT" name="PTWEB_NIT" title="Please enter a valid Sign in name" autofocus="" placeholder="Sign in name" aria-label="Sign in name">
+                                          </div>
+                                       </div><br>
+                                       <div class="row align-items-center">
+                                          <div class="col-md-4">
+                                             <label for="password" class="fw-bold">CLAVE</label>
+                                          </div>
+                                          <div class="col-md-8">
+                                             <input type="password" id="PTWEB_CLAVE" name="PTWEB_CLAVE" placeholder="Password" aria-label="Password" autocomplete="current-password" aria-required="true">
+                                          </div>
+                                       </div>
+                                    </div>
+                                       <!-- <div class="buttons">
+                                       <button id="next" type="submit" form="localAccountForm">Login</button>
+                                       <a id="forgotPassword" href="#">Forgot your password?</a></div> -->
+                                 </div>
+                                 <!-- <div class="divider">
+                                 </div> -->
+                                 <div class="msc-main-box col-md-12 bg-transparent">
+                                    <div class="msc-navigation">
+                                        <!-- <form action="TERCEROS_WEB_MODIFICACION.html"> -->
+                                            <button class="msc-search-schedule__nav-button msc-search-schedule__nav-button--active">
+                                                <span class="msc-search-schedule__nav-button-label">CONTINUAR</span>
+                                            </button>
+                               </form>
+                                        <form action="TERCEROS_WEB_REGISTER.html">
+                                            <button class="msc-search-schedule__nav-button ">
+                                                <span class="msc-search-schedule__nav-button-label">REGISTRARSE</span>
+                                            </button>
+                                        </form>
+                                        <form action="Terceros_Web_Rec_clave.html">
+                                            <button class="msc-search-schedule__nav-button ">
+                                                <span class="msc-search-schedule__nav-button-label">NUEVA CLAVE</span>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                 <!-- <div class="intro">
+                                    <br>
+                                    <h5 id="createAccount" href="#" class="btn">ACTUALIZAR</h5>
+                                    <input id="NP1" class="btn" name="salv" value="CONTINUAR" onclick="var resp = Salvar(); if(!resp) mostrar(); return resp;" type=submit>
+                                    <h5 id="createAccount" href="RESUMEN_TRIBUTARIOS.html" class="btn">CONTINUAR</h5>
+                                    <h5 id="createAccount" href="Terceros_Web_Rec_clave" class="btn">NUEVA CLAVE</h5>
+                                 </div> -->
+                              <!-- </form> -->
+                              <!-- <form action="TERCEROS_WEB_MODIFICACION.html">
+                                 <input id="NP11" class="btn" value="REG&Iacute;STRESE AHORA" type="submit">
+                              </form>
+                              <form action="Terceros_Web_Rec_clave.html">
+                                 <input id="NP11" class="btn" value="NUEVA CLAVE" type="submit">
+                              </form> -->
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+        </div>
+    </div>
+    <!-- <script language="javascript">
+        var sepmiles = ",";
+        var formatofecha = "DD/MM/YYYY";
+        document.F.paccion.value = "";
+        function Salvar() { esconder();
+            if(!validar(document.F.PTWEB_NIT, "Nit", "ENT", 0, "OBL", "VISIBLE", 1000, 999999999999))
+                return false;
+            if(!validar(document.F.PTWEB_CLAVE, "Clave", "ALF", 0, "OBL", "VISIBLE", 0, 0))
+                return false;
+            document.F.paccion.value = "S";
+            return true;
+        }
+    </script> -->
+</body>
+</html>

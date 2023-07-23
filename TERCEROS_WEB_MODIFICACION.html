@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" sizes="16x16" href="images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" data-preload="true" rel="stylesheet" type="text/css" crossorigin="anonymous">
+    <link href="css/layout.css" data-preload="true" rel="stylesheet" type="text/css" crossorigin="anonymous">
+    <!-- <link href="css/main.css" rel="stylesheet"> -->
+    <link href="css/icomoon.css" data-preload="true" rel="stylesheet" type="text/css" crossorigin="anonymous">
+    <script- type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js" nonce="+YnHhlWzGipF646KnnYqzQ=="></script>
+    <script- type="text/javascript" async="" src="js/main.js"></script>
+
+    <!--script type="text/javascript" async="" src="js/analytics.js" nonce="+YnHhlWzGipF646KnnYqzQ=="></script-->
+    <script- async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-N5L24Z3"></script>
+    <!--script async="" src="js/gtm.js"></script-->
+    <script language="javascript" src="js/MSC.utilidades"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script> 
+        $(function(){
+          $("#header").load("/template/menu.html"); 
+        //   $("#footer").load("footer.html"); 
+        });
+    </script>
+
+    <!-- <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
+    <title>MSC Company</title>
+</head>
+<body id="bodyBg-menu-1">
+    <div id="header" class="container-fluid"></div>
+    <div class="container-fluid">
+        <div class="row g-5">
+            <div class="col-md-8">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="card offset-1 col-7 bottom-align">
+                                    <div class="card-body">
+                                        <form name="F" action="MSC.SOLICITUD_FACTURA" method="post">
+                                            <div id="#" class="mfaForm">
+                                            <div class="intro grid-x align-center">
+                                                <img src="/images/logo-msc.svg" class="card-img-top" alt="msc" width="50" height="50">
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-md-4">
+                                                    <label for="signInName" class="fw-bold">NIT</label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <input type="text" value="830074208" disabled>
+                                                </div>
+                                            </div><br>
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <label for="signInName" class="fw-bolder">Razón Social</label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <input type="text">
+                                                </div>
+                                            </div><br>
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <label for="signInName" class="fw-bolder">Teléfono</label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <input type="text">
+                                                </div>
+                                            </div><br>
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <label for="signInName" class="fw-bolder">Dirección</label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <input type="text">
+                                                </div>
+                                            </div><br>
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <label for="signInName" class="fw-bolder">Email</label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <input type="text">
+                                                </div>
+                                            </div><br>
+                                            <div class="row ">
+                                                <div class="col-md-4">
+                                                    <label for="signInName" class="fw-bold">Nombre Contacto</label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <input type="text">
+                                                </div>
+                                            </div><br>
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <label for="signInName" class="fw-bolder">Cargo Contacto</label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <input type="text">
+                                                </div>
+                                            </div><br>
+                                            <div class="row ">
+                                                <div class="col-md-4">
+                                                    <label for="signInName" class="fw-bold">Ciudad</label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <select >
+                                                        <option value="1">SELECCIÓN</option>
+                                                    </select>
+                                                </div>
+                                            </div><br>
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <label for="signInName" class="fw-bolder">Régimen</label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <select >
+                                                        <option value="1">COMUN</option>
+                                                        <option value="2">SIMPLIFICADO</option>
+                                                    </select>
+                                                </div>
+                                            </div><br>
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <label for="signInName" class="fw-bolder">Código CIIU</label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <input type="text">
+                                                </div>
+                                            </div><br>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="  offset-1 col-7 bottom-align bg-transparent">
+                                    <div class="#">
+                                        <div class="msc-main-box col-md-12 bg-transparent">
+                                            <div class="msc-navigation">
+                                                <button class="msc-search-schedule__nav-button msc-search-schedule__nav-button--active">
+                                                    <span class="msc-search-schedule__nav-button-label text-white">Actualizar</span>
+                                                </button>
+                                                <button class="msc-search-schedule__nav-button ">
+                                                    <span class="msc-search-schedule__nav-button-label text-white">Actualizar Razón Social</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                        .tyrhbrt6u56w4hrshgh
+                    </div> -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex flex-wrap align-items-center justify-content-center py-3 mb-4">
+                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="btn btn-success me-2 mb-2" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Actualización información del cliente</button>
+                        <button class="btn btn-success me-2 mb-2" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Cambio de contraseña</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+</html>

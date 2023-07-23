@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" sizes="16x16" href="images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" data-preload="true" rel="stylesheet" type="text/css" crossorigin="anonymous">
+    <link href="css/layout.css" data-preload="true" rel="stylesheet" type="text/css" crossorigin="anonymous">
+    <!-- <link href="css/main.css" rel="stylesheet"> -->
+    <link href="css/icomoon.css" data-preload="true" rel="stylesheet" type="text/css" crossorigin="anonymous">
+    <script- type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js" nonce="+YnHhlWzGipF646KnnYqzQ=="></script>
+    <script- type="text/javascript" async="" src="js/main.js"></script>
+
+    <!--script type="text/javascript" async="" src="js/analytics.js" nonce="+YnHhlWzGipF646KnnYqzQ=="></script-->
+    <script- async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-N5L24Z3"></script>
+    <!--script async="" src="js/gtm.js"></script-->
+    <script language="javascript" src="js/MSC.utilidades"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script> 
+        $(function(){
+          $("#header").load("/template/menu.html"); 
+        //   $("#footer").load("footer.html"); 
+        });
+    </script>
+
+    <!-- <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
+    <title>MSC Company</title>
+</head>
+<body id="bodyBg-menu-1">
+    <div id="#" class="container-fluid">
+        <header class="d-flex flex-wrap align-items-center justify-content-center py-3 mb-4">
+            <a type="button" class="btn btn-primary me-2 mb-2 " href="/TERCEROS_WEB_MODIFICACION.html">Actualización de <br>Info del Cliente</a>
+            <a type="button" class="btn btn-primary me-2 mb-2 " href="/RESUMEN_TRIBUTARIOS.html">Consultas</a>
+            <a type="button" class="btn btn-primary me-2 mb-2" href="/PROCESO_LIBERACION.html">Proceso <br>Liberación</a>
+            <a type="button" class="btn btn-primary me-2 mb-2" href="/PAGO_FACTURAS.html">Pago Facturas <br>No relacionado <br>con liberaciones</a>
+            <a type="button" class="btn btn-primary me-2 mb-2 " href="/GENERACION_RECIBOS_CAJA.html">Generación de <br>Recibos de Caja</a>
+            <a type="button" class="btn btn-primary me-2 mb-2 active" href="/TERCEROS_WEB_MODIFICACION.html">Reembolsos <br>Depósitos</a>
+        </header>
+    </div>
+    <div class="container-fluid">
+        <div class="row g-5">
+            <div class="col-md-4">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="bottom-align bg-transparent">
+                            <div class="card-body">
+                                <form name="F" action="#" method="#">
+                                  <div id="#" class="mfaForm">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-3">
+                                            <img src="/images/logo-msc.svg" class="#" alt="msc" width="40" height="40">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <span class=" fw-bolder text-dark">REEMBOLSOS DEPÓSITOS</span>
+                                        </div>
+                                    </div><br>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label for="signInName" class="fw-bolder">Número de BL*</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" value="Nombre del cliente" disabled>
+                                        </div>
+                                    </div><br>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label for="signInName" class="fw-bold">Correo cliente para envío de respuesta</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" value="830074208" disabled>
+                                        </div>
+                                    </div><br>
+                                  </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+        </div>
+        <div class="row ">
+            <div class="container-fluid">
+                <div class="recovery">
+                    <div class="card offset-0 col-12 bottom-align bg-transparent">
+                        <span class="card-body">
+                            Estimado cliente.<br>
+                            Solicitud aceptada. En proceso de reembolso.<br> 
+                            Se genera respuesta al correo registrado dentro de los 15 días siguientes a esta solicitud.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

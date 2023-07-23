@@ -1,0 +1,1625 @@
+/* vietnamese */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("https://hqew1mysai03b2c.blob.core.windows.net/ci-cd/fonts/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLySOxK-vA.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("https://hqew1mysai03b2c.blob.core.windows.net/ci-cd/fonts/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLyTOxK-vA.woff2") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("https://hqew1mysai03b2c.blob.core.windows.net/ci-cd/fonts/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxI.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("https://hqew1mysai03b2c.blob.core.windows.net/ci-cd/fonts/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLySOxK-vA.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("https://hqew1mysai03b2c.blob.core.windows.net/ci-cd/fonts/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLyTOxK-vA.woff2") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("https://hqew1mysai03b2c.blob.core.windows.net/ci-cd/fonts/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxI.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: transparent !important;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: transparent !important;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: transparent !important;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: transparent !important;
+}
+*::placeholder {
+  color: transparent !important;
+}
+body {
+  font-family: 'Archivo', sans-serif;
+  height: 100%;
+  font-size: 14px;
+}
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* background: #fff; */
+}
+.logo svg {
+  width: 64px;
+  height: 57px;
+}
+.container-fluid {
+  overflow: auto;
+}
+.card {
+  background-color: #fff !important;
+  border-radius: 10px;
+  box-shadow: 3px 2px 6px #bdbdbd;
+}
+.card.login {
+  max-width: 30rem;
+}
+hr {
+  margin: 10px 0 !important;
+}
+a {
+  color: #231f20;
+  cursor: pointer !important;
+}
+a:hover {
+  color: #EED484;
+}
+.input-group-append {
+  cursor: pointer;
+}
+label {
+  font-weight: normal !important;
+}
+.textInput,
+select {
+  border-radius: 1px 0 0 1px;
+  background: #f2f2f2 !important;
+  color: #222221;
+  border: 1px solid #f2f2f2 !important;
+  height: 2rem;
+  box-shadow: none !important;
+  width: 100%;
+  padding: 0 16px;
+  font-size: 1rem;
+}
+.textInput.errorInput,
+select.errorInput {
+  border: 1px solid red;
+}
+.textInput:disabled,
+select:disabled {
+  background-color: #e7e7e7;
+}
+.textInput:active,
+select:active,
+.textInput:focus,
+select:focus,
+.textInput:focus-visible,
+select:focus-visible {
+  border: 1px solid #eed484 !important;
+  outline: none;
+}
+.navbar-default {
+  border: none !important;
+}
+.intro {
+  margin-bottom: 2rem;
+}
+.intro h5 {
+  line-height: 1;
+  margin-bottom: 0;
+}
+ul > li {
+  list-style-type: none;
+  position: relative;
+}
+.btn-primary {
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  min-width: 10rem;
+  max-width: 25rem;
+  min-height: 3rem;
+  color: #222221;
+  background: #EED484;
+  border: 2px solid #EED484;
+  padding: 0 3rem;
+  border-radius: 2.6rem;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, border 0.25s ease-in-out;
+  float: right;
+}
+.btn-primary.black {
+  border: 2px solid #EED484;
+  background: #fff;
+  color: #222221;
+}
+.btn-primary.black:hover,
+.btn-primary.black:active,
+.btn-primary.black:focus {
+  border: 2px solid #EED484;
+  color: #222221;
+  background: #EED484;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  border: 2px solid #EED484;
+  background: #fff;
+  color: #222221;
+  outline: none;
+}
+.btn-primary::before {
+  content: "\e91a";
+  font-family: "msc-icomoon";
+  transform: rotate(180deg);
+  font-size: 0.6rem;
+  margin-right: 0.5rem;
+}
+.btn-primary-sm {
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  min-width: 5rem;
+  max-width: 15rem;
+  min-height: 2rem;
+  color: #222221;
+  background: #EED484;
+  border: 2px solid #EED484;
+  padding: 0 1.5rem;
+  border-radius: 2.6rem;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, border 0.25s ease-in-out;
+  float: right;
+}
+.btn-primary-sm:hover,
+.btn-primary-sm:active,
+.btn-primary-sm:focus {
+  border: 2px solid #EED484;
+  background: #fff;
+  color: #222221;
+  outline: none;
+}
+/* Hack for inline style... */
+button[style*="display: inline"] {
+  display: inline-flex !important;
+}
+#divFakeContinue:hover + button {
+  background: #EED484;
+  box-shadow: 0 14px 26px -12px rgba(116, 96, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(116, 96, 238, 0.2);
+  color: #000;
+  opacity: 1;
+  border: 1px solid #EED484;
+}
+.btn-secondary {
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  min-width: 10rem;
+  max-width: 25rem;
+  min-height: 3rem;
+  color: #222221;
+  background: #fff;
+  border: 1px solid #ACA39A;
+  padding: 0 4rem;
+  border-radius: 2.6rem;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, border 0.25s ease-in-out;
+}
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:focus {
+  background: #ACA39A;
+}
+.btn-success {
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  min-width: 10rem;
+  max-width: 25rem;
+  min-height: 3rem;
+  color: #222221;
+  background: #e0e0df;
+  border: 1px solid #ACA39A;
+  padding: 0 4rem;
+  border-radius: 2.6rem;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, border 0.25s ease-in-out;
+}
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus {
+  background: #00685E;
+}
+.btn-rounded {
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  cursor: pointer;
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  min-width: 0;
+  min-height: 0;
+  border: 2px solid #222221;
+  background: transparent;
+  border-radius: 50%;
+}
+.btn-rounded:hover,
+.btn-rounded:active,
+.btn-rounded:focus {
+  background: #222221;
+  color: #fff;
+}
+.error {
+  color: #f00;
+  clear: both;
+}
+#claimVerificationServerError {
+  white-space: pre-line;
+}
+#emailVerificationControl_label {
+  display: none;
+}
+.verificationSuccessText {
+  color: #222221;
+}
+.helpLink {
+  display: none;
+}
+.clearfix {
+  clear: both;
+}
+.simplemodal-container {
+  background-color: #fff !important;
+}
+.attrEntry {
+  position: relative;
+  margin-top: 0.5rem;
+}
+.buttons button {
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  min-width: 10rem;
+  max-width: 25rem;
+  min-height: 3rem;
+  color: #222221;
+  background: #EED484;
+  border: 2px solid #EED484;
+  padding: 0 4rem;
+  border-radius: 2.6rem;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, border 0.25s ease-in-out;
+  float: right;
+}
+.buttons button.black {
+  border: 2px solid #EED484;
+  background: #fff;
+  color: #222221;
+}
+.buttons button.black:hover,
+.buttons button.black:active,
+.buttons button.black:focus {
+  border: 2px solid #EED484;
+  color: #222221;
+  background: #EED484;
+}
+.buttons button:hover,
+.buttons button:active,
+.buttons button:focus {
+  border: 2px solid #EED484;
+  background: #fff;
+  color: #222221;
+  outline: none;
+}
+.buttons button::before {
+  content: "\e91a";
+  font-family: "msc-icomoon";
+  transform: rotate(180deg);
+  font-size: 0.6rem;
+  margin-right: 0.5rem;
+}
+.buttons button.sendNewCode,
+.buttons button.sendButton,
+.buttons button.changeClaims {
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  min-width: 10rem;
+  max-width: 25rem;
+  min-height: 3rem;
+  color: #222221;
+  background: #fff;
+  border: 2px solid #EED484;
+  padding: 0 4rem;
+  border-radius: 2.6rem;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, border 0.25s ease-in-out;
+}
+.buttons button.sendNewCode:hover,
+.buttons button.sendButton:hover,
+.buttons button.changeClaims:hover,
+.buttons button.sendNewCode:active,
+.buttons button.sendButton:active,
+.buttons button.changeClaims:active,
+.buttons button.sendNewCode:focus,
+.buttons button.sendButton:focus,
+.buttons button.changeClaims:focus {
+  background: #EED484;
+}
+.buttons button#cancel {
+  font-size: 0 !important;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  cursor: pointer;
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  min-width: 0;
+  min-height: 0;
+  border: 2px solid #222221;
+  background: transparent;
+  border-radius: 50%;
+}
+.buttons button#cancel:hover,
+.buttons button#cancel:active,
+.buttons button#cancel:focus {
+  background: #222221;
+  color: #fff;
+}
+.buttons button#cancel::before {
+  content: "\e91c";
+  font-family: "msc-icomoon";
+  margin-right: 0;
+  font-size: 1.5rem;
+}
+.buttons button#next::before {
+  content: "";
+}
+.lblCustom {
+  color: #222221;
+  font-size: 0.9rem !important;
+}
+#attributeList hr {
+  display: none;
+}
+#attributeList .clearfix {
+  display: none;
+}
+#preventFocus {
+  width: 1px !important;
+  height: 1px !important;
+  opacity: 0 !important;
+  cursor: default;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  border: 0;
+}
+#divFakeContinue {
+  width: 207px;
+  height: 50px;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  opacity: 0;
+  bottom: 29px;
+  right: 26px;
+}
+#headerLayout {
+  background-color: transparent;
+  height: 110px;
+}
+#headerLayout nav {
+  margin-bottom: 0 !important;
+}
+#headerLayout nav .navbar-header {
+  height: 90px;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+#headerLayout nav .navbar-header span#logo {
+  color: rgba(0, 0, 0, 0.9);
+  display: inline-block !important;
+  background-size: contain !important;
+  width: 64px;
+  pointer-events: all;
+  background: transparent url("https://hqew1mysai03b2c.blob.core.windows.net/ci-cd/images/logo-msc.svg") no-repeat top left;
+  height: 57px;
+  padding: 0;
+  border: none;
+  display: block;
+}
+#headerLayout nav .navbar-header img {
+  float: left;
+  margin-top: 20px;
+}
+
+.nav-pills-msc .nav-link-msc {
+  border: 0;
+  background-color: transparent;
+}
+
+.nav-pills-msc .nav-link-msc.active,.nav-pills-msc .show>.nav-link-msc {
+  font-weight: 600;
+  /* background: #eed484;
+  border-radius: 2rem;
+  /* bottom: -1.5rem; */
+  /* width: 6rem;
+  height: 0.4rem; */
+}
+
+#bodySection, #bodyBg-login, #bodyBg-register, #bodyBg-recovery, #bodyBg-menu-1, #bodyBg-menu-2, #bodyBg-menu-3, #bodyBg-menu-4 {
+  float: none;
+  width: 100%;
+  /* background-image: url("/images/ship/msc_ship_login.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  /* min-height: calc(100vh - 90px - 61px); */
+  /* display: flex; */
+  align-items: center;
+  padding: 0rem 0;
+}
+#bodySection.fixed-background, #bodyBg-login, #bodyBg-register, #bodyBg-recovery, #bodyBg-menu-1, #bodyBg-menu-2, #bodyBg-menu-3, #bodyBg-menu-4 {
+  background-attachment: fixed;
+  padding-bottom: 0rem;
+}
+#bodySection.terms-conditions-wrapper {
+  background: #f2f2f2;
+}
+#bodySection.terms-conditions-wrapper #registrationForm {
+  padding: 0 90px;
+  width: 65%;
+  margin: 0 auto;
+}
+#bodyBg-login {
+  background-image: url("/images/ship/msc_ship_login.jpg");
+}
+#bodyBg-register, #bodyBg-recovery {
+  background-image: url("/images/ship/msc_ship_register.jpg");
+}
+#bodyBg-menu-1 {
+  background-image: url("/images/ship/msc_ship1.jpg");
+}
+#bodyBg-menu-2 {
+  background-image: url("/images/ship/msc_ship2.jpg");
+}
+#bodyBg-menu-3 {
+  background-image: url("/images/ship/msc_ship3.jpg");
+}
+#bodyBg-menu-4 {
+  background-image: url("/images/ship/msc_ship4.jpg");
+}
+
+
+#registrationForm {
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
+}
+#registrationForm .divStepRegistration h5 {
+  text-align: center;
+  font-weight: bold;
+}
+#registrationForm .divStepRegistration h5::after {
+  content: '';
+  display: block;
+  width: 6rem;
+  height: 0.4rem;
+  background: #EED484;
+  border-radius: 300px;
+  margin: 0.6rem auto 0;
+}
+#registrationForm .divStepRegistration.terms-conditions-content .intro {
+  margin-bottom: 50px;
+}
+#registrationForm .divStepRegistration.terms-conditions-content .intro h5 {
+  text-align: left;
+  font-size: 27px;
+  line-height: 36px;
+}
+#registrationForm .divStepRegistration.terms-conditions-content .intro h5::after {
+  display: none;
+}
+#registrationForm > #email {
+  width: 100%;
+}
+#registrationForm .VerificationControl .attrEntry:first-child {
+  margin-top: 0;
+}
+#registrationForm .verificationControlContent .attrEntry {
+  width: 100% !important;
+  display: block !important;
+}
+#registrationForm .verificationControlContent li.TextBox.email,
+#registrationForm .verificationControlContent li.TextBox.VerificationCode {
+  width: 100%;
+}
+#registrationForm .verificationControlContent .VerificationControl {
+  margin-bottom: 40px;
+}
+#registrationForm .verificationControlContent .VerificationControl .attrEntry {
+  margin-top: 0;
+}
+#registrationForm .verificationControlContent .VerificationControl li:first-child {
+  float: left !important;
+}
+#registrationForm .verificationControlContent .VerificationControl li:last-child {
+  float: right !important;
+}
+#registrationForm .CheckboxMultiSelect,
+#registrationForm .DropdownSingleSelect,
+#registrationForm .Password,
+#registrationForm .RadioSingleSelect,
+#registrationForm .TextBox,
+#registrationForm .EmailBox {
+  float: left;
+  width: 50%;
+  padding-right: 4px;
+  min-height: 50px;
+  font-size: 1rem;
+  position: relative;
+}
+#registrationForm .TextBox.VerificationCode {
+  float: left;
+}
+#registrationForm .TextBox .email {
+  width: 100% !important;
+}
+#registrationForm .CheckboxMultiSelect {
+  min-height: 40px;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  /*
+        input[type=checkbox] {
+            display: inline-block;
+            margin-right: 5px;
+
+            &+label {
+                display: inline-block;
+                font-weight: 400;
+            }
+        }*/
+}
+#registrationForm .CheckboxMultiSelect a {
+  text-decoration: underline !important;
+}
+#registrationForm .CheckboxMultiSelect .container-checkbox input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+#registrationForm .CheckboxMultiSelect .container-checkbox label.text-label {
+  cursor: pointer;
+}
+#registrationForm .CheckboxMultiSelect .container-checkbox label.text-label:before {
+  content: '';
+  -webkit-appearance: none;
+  background-color: #f2f2f2;
+  border: 1px solid #8b8178;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+}
+#registrationForm .CheckboxMultiSelect .container-checkbox input:checked + label.text-label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid #EED484;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+#registrationForm .RadioSingleSelect {
+  line-height: 10px;
+}
+#registrationForm .RadioSingleSelect label {
+  display: block;
+  line-height: 1rem;
+  position: relative;
+}
+#registrationForm .RadioSingleSelect input[type=radio] {
+  display: inline-block;
+  margin-right: 5px;
+}
+#registrationForm .RadioSingleSelect input[type=radio] + label {
+  display: inline-block;
+  font-weight: 400;
+}
+#registrationForm .RadioSingleSelect .container-radio input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none !important;
+  cursor: pointer;
+}
+#registrationForm .RadioSingleSelect .container-radio label.text-label {
+  cursor: pointer;
+}
+#registrationForm .RadioSingleSelect .container-radio label.text-label:before {
+  content: '';
+  -webkit-appearance: none;
+  background-color: #f2f2f2;
+  border: 1px solid #8b8178;
+  border-radius: 1rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+}
+#registrationForm .RadioSingleSelect .container-radio input:checked + label.text-label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 4px !important;
+  left: 4px !important;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #EED484 !important;
+}
+#registrationForm .Password label,
+#registrationForm .TextBox label,
+#registrationForm .EmailBox label,
+#registrationForm .DropdownSingleSelect label {
+  color: #222221;
+  font-size: 0.9rem !important;
+}
+#registrationForm .buttons {
+  text-align: center;
+}
+#registrationForm .buttons button {
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+#registrationForm #attributeVerification ul,
+#registrationForm #emailVerificationControl ul {
+  padding-inline-start: 0;
+  padding-left: 0;
+}
+#registrationForm #attributeVerification > .buttons {
+  margin-top: 13px;
+}
+#registrationForm #attributeVerification .verify {
+  height: 60px !important;
+}
+#registrationForm #attributeVerification .buttons {
+  text-align: left !important;
+}
+#registrationForm #attributeVerification #readOnlyEmail_label {
+  margin-top: 2rem;
+}
+#registrationForm #attributeVerification #readOnlyEmail_ver_input_label {
+  display: inline-block;
+}
+#registrationForm #emailVerificationControl .buttons {
+  margin-top: 1rem;
+}
+.loginForm input[type=text],
+.loginForm input[type=email],
+.loginForm input[type=password] {
+  border-radius: 1px 0 0 1px;
+  background: #f2f2f2 !important;
+  color: #222221;
+  border: 1px solid #f2f2f2 !important;
+  height: 2rem;
+  box-shadow: none !important;
+  width: 100%;
+  padding: 0 16px;
+  font-size: 1rem;
+}
+.loginForm input[type=text].errorInput,
+.loginForm input[type=email].errorInput,
+.loginForm input[type=password].errorInput {
+  border: 1px solid red;
+}
+.loginForm input[type=text]:disabled,
+.loginForm input[type=email]:disabled,
+.loginForm input[type=password]:disabled {
+  background-color: #e7e7e7;
+}
+.loginForm input[type=text]:active,
+.loginForm input[type=email]:active,
+.loginForm input[type=password]:active,
+.loginForm input[type=text]:focus,
+.loginForm input[type=email]:focus,
+.loginForm input[type=password]:focus,
+.loginForm input[type=text]:focus-visible,
+.loginForm input[type=email]:focus-visible,
+.loginForm input[type=password]:focus-visible {
+  border: 1px solid #eed484 !important;
+  outline: none;
+}
+.loginForm input[type=text]:disabled,
+.loginForm input[type=email]:disabled,
+.loginForm input[type=password]:disabled {
+  background-color: white!important;
+  border-color: white !important;
+  font-weight: bold;
+  padding-left: 0;
+}
+.loginForm .no-account-yet li {
+  padding: 1rem;
+}
+.loginForm .no-account-yet h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+}
+.loginForm .no-account-yet .item {
+  padding-left: 20%;
+  padding-top: 3%;
+}
+.loginForm .no-account-yet .description {
+  word-wrap: break-word;
+  width: 75%;
+  padding-left: 4rem;
+}
+.loginForm .no-account-yet span.icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: #EED484;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  float: left;
+}
+.loginForm .no-account-yet span.icon i {
+  line-height: 3rem;
+  font-size: 2.5rem;
+}
+.loginForm .no-account-yet span.icon i.icon-hearth {
+  font-size: 2rem;
+}
+.loginForm .entry-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+.loginForm .entry-item label {
+  color: #222221;
+  font-size: 0.9rem !important;
+}
+.loginForm .entry-item .highlightError {
+  border: 1px solid #f00;
+}
+.loginForm .divider {
+  display: none;
+}
+.loginForm .create {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(120, 130, 140, 0.13);
+  text-align: center;
+}
+.loginForm .create > p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.loginForm .create #createAccount {
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  min-width: 10rem;
+  max-width: 25rem;
+  min-height: 3rem;
+  color: #222221;
+  background: #EED484;
+  border: 2px solid #EED484;
+  padding: 0 4rem;
+  border-radius: 2.6rem;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, border 0.25s ease-in-out;
+  float: right;
+  float: none;
+}
+.loginForm .create #createAccount.black {
+  border: 2px solid #EED484;
+  background: #fff;
+  color: #222221;
+}
+.loginForm .create #createAccount.black:hover,
+.loginForm .create #createAccount.black:active,
+.loginForm .create #createAccount.black:focus {
+  border: 2px solid #EED484;
+  color: #222221;
+  background: #EED484;
+}
+.loginForm .create #createAccount:hover,
+.loginForm .create #createAccount:active,
+.loginForm .create #createAccount:focus {
+  border: 2px solid #EED484;
+  background: #fff;
+  color: #222221;
+  outline: none;
+}
+.loginForm .create #createAccount::before {
+  content: "\e91a";
+  font-family: "msc-icomoon";
+  transform: rotate(180deg);
+  font-size: 0.6rem;
+  margin-right: 0.5rem;
+}
+.loginForm .create a {
+  margin-top: 15px;
+}
+.loginForm #forgotPassword {
+  display: inline-block;
+  line-height: 4rem;
+  text-decoration: underline;
+  padding-right: 1rem;
+  float: left;
+}
+.loginForm .buttons button {
+  float: right;
+  margin-right: 10px;
+}
+.loginForm .buttons #readOnlyEmail_ver_but_send,
+.loginForm .buttons #readOnlyEmail_ver_but_resend {
+  float: right !important;
+}
+.loginForm #readOnlyEmail,
+.loginForm #readOnlyEmail_ver_input {
+  margin-bottom: 10px;
+  padding: 0 8px !important;
+}
+.loginForm .RadioSingleSelect {
+  float: none !important;
+  width: 100% !important;
+}
+.loginForm .RadioSingleSelect input[type=radio] {
+  float: left !important;
+  display: block;
+  clear: both;
+  margin: 1.5rem 5px 0 0 !important;
+}
+.loginForm .RadioSingleSelect input[type=radio] + label {
+  display: block;
+  margin-top: 1.5rem;
+  float: none !important;
+  width: 85%;
+  line-height: 20px;
+}
+.mfaForm input[type=text] {
+  border-radius: 1px 0 0 1px;
+  background: #f2f2f2 !important;
+  color: #222221;
+  border: 1px solid #f2f2f2 !important;
+  height: 2rem;
+  box-shadow: none !important;
+  width: 100%;
+  padding: 0 16px;
+  font-size: 1rem;
+  padding: 0px 8px !important;
+}
+.mfaForm input[type=text].errorInput {
+  border: 1px solid red;
+}
+.mfaForm input[type=text]:disabled {
+  background-color: #e7e7e7;
+}
+.mfaForm input[type=text]:active,
+.mfaForm input[type=text]:focus,
+.mfaForm input[type=text]:focus-visible {
+  border: 1px solid #eed484 !important;
+  outline: none;
+}
+.mfaForm input[type=text]#number {
+  padding-top: 20px !important;
+}
+.mfaForm .attrEntry > div {
+  margin-bottom: 10px;
+}
+.mfaForm .input .code,
+.mfaForm .input .number {
+  position: relative;
+  min-height: 75px;
+}
+.mfaForm .input .code label,
+.mfaForm .input .number label {
+  color: #222221;
+  font-size: 0.9rem !important;
+}
+.mfaForm .actionLabel a {
+  text-decoration: underline;
+}
+.mfaForm .buttons {
+  margin-top: 10px;
+}
+.mfaForm #divMoreInfoMFA {
+  margin-bottom: 10px;
+}
+.changePassword {
+  padding-top: 5%;
+}
+.changePassword li {
+  float: none !important;
+  width: 100% !important;
+}
+.changePassword .buttons button {
+  margin: 0 4px 0 4px;
+}
+.forgotPasswordForm .buttons button {
+  margin: 0 4px 0 4px;
+}
+.forgotPasswordForm .attrEntry {
+  margin-top: 0;
+}
+.editProfile .container,
+.newProfile .container {
+  padding-bottom: 5rem;
+}
+.terms-conditions-wrapper {
+  line-height: 21px;
+}
+.terms-conditions-wrapper ul li {
+  list-style-type: disc;
+  font-size: 13px;
+}
+.terms-conditions-wrapper p {
+  margin-bottom: 21px;
+  font-size: 13px;
+}
+.terms-conditions-wrapper h3 {
+  font-size: 22px;
+}
+.terms-conditions-wrapper a {
+  text-decoration: underline;
+}
+.terms-conditions-wrapper .bottom-cta-container {
+  margin-top: 50px;
+}
+.terms-conditions-wrapper #aBackTeC {
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  min-width: 10rem;
+  max-width: 25rem;
+  min-height: 3rem;
+  color: #222221;
+  background: #EED484;
+  border: 2px solid #EED484;
+  padding: 0 4rem;
+  border-radius: 2.6rem;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, border 0.25s ease-in-out;
+  float: right;
+  min-height: 50px;
+  font-size: 16px;
+}
+.terms-conditions-wrapper #aBackTeC.black {
+  border: 2px solid #EED484;
+  background: #fff;
+  color: #222221;
+}
+.terms-conditions-wrapper #aBackTeC.black:hover,
+.terms-conditions-wrapper #aBackTeC.black:active,
+.terms-conditions-wrapper #aBackTeC.black:focus {
+  border: 2px solid #EED484;
+  color: #222221;
+  background: #EED484;
+}
+.terms-conditions-wrapper #aBackTeC:hover,
+.terms-conditions-wrapper #aBackTeC:active,
+.terms-conditions-wrapper #aBackTeC:focus {
+  border: 2px solid #EED484;
+  background: #fff;
+  color: #222221;
+  outline: none;
+}
+.terms-conditions-wrapper #aBackTeC::before {
+  content: "\e91a";
+  font-family: "msc-icomoon";
+  transform: rotate(180deg);
+  font-size: 0.6rem;
+  margin-right: 0.5rem;
+}
+.terms-conditions-wrapper #aBackTeC::before {
+  font-size: 10px;
+  margin-right: 8px;
+}
+footer:not(.msc-footer) {
+  color: #8b8178;
+  background-color: #222221;
+  padding: 18px 18px;
+  border-top: 1px solid rgba(120, 130, 140, 0.13);
+  text-align: center;
+  height: 61px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+footer:not(.msc-footer) a {
+  color: #8b8178;
+  text-decoration: none;
+}
+footer:not(.msc-footer) a:hover {
+  text-decoration: underline;
+}
+.recovery {
+  bottom: 30px;
+  position: fixed;
+}
+.msj-box {
+  bottom: 70px;
+  position: fixed;
+}
+.form-group label {
+  font-weight: 700;
+}
+#divHintMFA {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2000;
+  height: 100%;
+}
+#divHintMFA #divInfoMfa {
+  margin: 25vh auto;
+  text-align: left;
+  padding: 30px;
+  border: 1px solid #000;
+  background-color: #fff;
+  width: 40%;
+  position: relative;
+}
+#divHintMFA ul li {
+  list-style-type: disc;
+}
+#divHintMFA a {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+.verificationInfoText {
+  color: #222221;
+}
+#divTextInfoMFA {
+  clear: both;
+}
+
+/* msc-main-box */
+.msc-main-box {
+  background: #fff;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0 .3rem 6.6rem -2.5rem #222221;
+  box-shadow: 0 .3rem 6.6rem -2.5rem #222221;
+  margin: 0 auto;
+  max-width: 106rem;
+  padding: 1.5rem;
+  position: relative;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  display: none;
+}
+
+@media print,screen and (min-width: 30em) {
+  .msc-main-box {
+      padding:1rem 1.5rem;
+      display:block;
+  }
+}
+/*****/
+
+/* msc-navigation */
+.msc-navigation {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 2rem
+}
+
+.msc-navigation:after {
+  background: #f2f2f2;
+  border-radius: 2rem;
+  bottom: -1.4rem;
+  height: .1rem;
+  margin: 1rem auto;
+  /* width: calc(100% + 3.5rem);  */
+  content: "";
+  display: block;
+  position: absolute
+}
+
+@media print,screen and (max-width: 24em) {
+  .msc-navigation {
+      display:block;
+      padding-bottom:1rem;
+      margin:.8rem auto;
+      /* width: calc(100% + 7rem) */
+  }
+}
+/*****/
+
+/* msc-nav-button */
+.msc-search-schedule__nav-button {
+  background: none;
+  color: #222221;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  padding: 0 .8rem;
+  text-transform: uppercase;
+  word-break: break-word;
+}
+
+.msc-search-schedule__nav-button {
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  display: none;
+}
+
+.msc-search-schedule__nav-button-label {
+  text-align: center;
+  white-space: nowrap;
+  text-transform: uppercase;
+  /* font-size: 1.4rem; */
+  margin-bottom: 1rem;
+}
+
+.msc-search-schedule__nav-button:after {
+  content: "";
+  display: block;
+  position: absolute;
+  /* background: transparent; */
+  border-radius: 2rem;
+  bottom: -.8rem;
+  height: 0.4rem;
+  /* -webkit-transition: background .3s linear; */
+  transition: background .3s linear;
+  width: 6rem;
+/*   
+  width: 6rem;
+  height: 0.4rem;
+  background: #EED484;
+  border-radius: 300px;
+  margin: 0.6rem auto 0; */
+}
+
+.msc-search-schedule__nav-button:hover:after {
+  background: #eed484;
+}
+
+.msc-search-schedule__nav-button--active {
+  font-weight: 600;
+}
+
+.msc-search-schedule__nav-button--active:after {
+  background: #eed484;
+}
+
+@media print,screen and (min-width: 30em) {
+  .msc-search-schedule__nav-button-label {
+      margin-bottom:.4rem;
+      position: static;
+      -webkit-transform: none;
+      transform: none;
+  }
+}
+
+@media print,screen and (min-width: 30em) {
+  .msc-search-schedule__nav-button {
+      display:flex;
+      padding:0 1.8rem;
+      width: auto;
+      height: 0.6rem;
+  }
+}
+
+@media print,screen and (min-width: 30em) {
+  .msc-search-schedule__nav-button:after {
+      bottom:-1.5rem;
+  }
+}
+/*****/
+
+@media screen and (min-width: 1024px) {
+  #registrationForm {
+    /*
+        .CheckboxMultiSelect {
+
+            input[type=checkbox] {
+                // width  : 5%;
+                float: left;
+                display: block;
+
+                &+label {
+                    display: block;
+                    width: 90%;
+                    float: left;
+                }
+            }
+
+        }*/
+  }
+  #registrationForm #attributeList ul .Password + .TextBox,
+  #registrationForm #attributeList ul .block {
+    clear: both;
+    margin-top: 35px;
+  }
+  #registrationForm #attributeList ul .Password + .TextBox + .TextBox,
+  #registrationForm #attributeList ul .block + .RadioSingleSelect {
+    margin-top: 35px;
+  }
+  #registrationForm #attributeList ul li.CheckboxMultiSelect:last-child {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 1024px) {
+  #registrationForm #attributeList ul .Password + .TextBox,
+  #registrationForm #attributeList ul .block {
+    clear: both;
+    margin-top: 35px;
+  }
+  #registrationForm #attributeList ul .Password + .TextBox + .TextBox,
+  #registrationForm #attributeList ul .block + .RadioSingleSelect {
+    margin-top: 35px;
+  }
+  #registrationForm .CheckboxMultiSelect {
+    clear: both;
+    min-height: 35px;
+    width: 100%;
+    /*
+            input[type=checkbox] {
+                float: left;
+                display: block;
+
+                &+label {
+                    display: block;
+                    width: 90%;
+                    float: left;
+                }
+            }
+            */
+  }
+}
+@media screen and (max-width: 780px) {
+  .Password label,
+  .TextBox label,
+  .EmailBox label,
+  .DropdownSingleSelect label {
+    font-size: 11px !important;
+  }
+  #divHintMFA #divInfoMfa {
+    margin: 15vh auto;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 749px) {
+  #registrationForm .CheckboxMultiSelect,
+  #registrationForm .DropdownSingleSelect,
+  #registrationForm .Password,
+  #registrationForm .RadioSingleSelect,
+  #registrationForm .TextBox,
+  #registrationForm .EmailBox {
+    float: none !important;
+    width: 100%;
+    padding-right: 0 !important;
+    min-height: auto;
+    margin-bottom: 20px;
+  }
+  #registrationForm .RadioSingleSelect {
+    min-height: 50px;
+  }
+  #registrationForm .RadioSingleSelect input[type=radio] {
+    float: left;
+    display: block;
+  }
+  #registrationForm .RadioSingleSelect input[type=radio] + label {
+    display: block;
+    margin-top: 4px;
+    float: left;
+    width: 95%;
+  }
+  #registrationForm .CheckboxMultiSelect {
+    clear: both;
+    margin-bottom: 0 !important;
+    /*
+            input[type=checkbox] {
+                float: left;
+                display: block;
+
+                &+label {
+                    display: block;
+                    width: 90%;
+                    float: left;
+                }
+            }*/
+  }
+  #registrationForm #emailVerificationControl li {
+    margin-bottom: 10px !important;
+  }
+  #registrationForm #emailVerificationControl .buttons .sendCode,
+  #registrationForm #emailVerificationControl .buttons .changeClaims {
+    margin-top: 0px !important;
+  }
+  #registrationForm.loginForm .buttons #forgotPassword {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #registrationForm.loginForm .buttons button {
+    min-width: 1rem;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 435px) {
+  #registrationForm .RadioSingleSelect {
+    line-height: 14px;
+    min-height: 80px;
+  }
+  #registrationForm .RadioSingleSelect input[type=radio] + label {
+    width: 92%;
+  }
+}
+@media screen and (max-width: 380px) {
+  #registrationForm #emailVerificationControl li {
+    margin-bottom: 20px !important;
+  }
+  #registrationForm .Password label,
+  #registrationForm .TextBox label,
+  #registrationForm .EmailBox label,
+  #registrationForm .DropdownSingleSelect label {
+    font-size: 11px !important;
+  }
+  #registrationForm .RadioSingleSelect {
+    line-height: 14px;
+    min-height: 80px;
+  }
+  #registrationForm .RadioSingleSelect input[type=radio] + label {
+    width: 92%;
+  }
+}
+@media screen and (max-width: 357px) {
+  .loginForm .buttons #forgotPassword {
+    margin: 10px 0 0 0;
+  }
+}
+@media (max-width: 482px) {
+  /* #bodySection {
+    background: url("/images/ship/msc_ship2.jpg");
+  } */
+  #bodySection.terms-conditions-wrapper {
+    background: #f2f2f2;
+  }
+  .loginForm .buttons {
+    margin-right: 0.5rem;
+    float: right;
+  }
+  .loginForm .buttons #next,
+  .loginForm .buttons .verifyButton,
+  .loginForm .buttons .sendButton,
+  .loginForm .buttons #readOnlyEmail_ver_but_resend {
+    float: none !important;
+  }
+  .loginForm .buttons #readOnlyEmail_ver_input_label {
+    display: block;
+    float: left;
+  }
+  .loginForm .no-account-yet .item {
+    padding-left: 14%;
+  }
+  .loginForm .no-account-yet .description {
+    width: 85%;
+  }
+  #registrationForm #attributeVerification .verify {
+    height: auto !important;
+    text-align: center !important;
+  }
+  #divTextInfoMFA {
+    clear: both;
+  }
+}
+@media (min-width: 483px) {
+  /* body {
+    background-image: url("https://hqew1mysai03b2c.blob.core.windows.net/ci-cd/images/msc_vessel_1920x1080.jpg");
+  } */
+}
+@media (max-width: 991px) {
+  #bodySection.terms-conditions-wrapper #registrationForm .terms-conditions-content {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  #bodySection.terms-conditions-wrapper #registrationForm .terms-conditions-content {
+    padding: 0;
+  }
+}

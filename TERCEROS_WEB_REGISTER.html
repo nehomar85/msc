@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" sizes="16x16" href="images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" data-preload="true" rel="stylesheet" type="text/css" crossorigin="anonymous">
+    <link href="css/layout.css" data-preload="true" rel="stylesheet" type="text/css" crossorigin="anonymous">
+    <!-- <link href="css/main.css" rel="stylesheet"> -->
+    <link href="css/icomoon.css" data-preload="true" rel="stylesheet" type="text/css" crossorigin="anonymous">
+    <!--script type="text/javascript" async="" src="js/analytics.js" nonce="+YnHhlWzGipF646KnnYqzQ=="></script-->
+    <script- type="text/javascript" async="" src="js/main.js"></script>
+
+    <!--script type="text/javascript" async="" src="js/analytics.js" nonce="+YnHhlWzGipF646KnnYqzQ=="></script-->
+    <script- async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-N5L24Z3"></script>
+    <!--script async="" src="js/gtm.js"></script-->
+    <script language="javascript" src="js/MSC.utilidades"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- <script>
+        $(function(){
+          $("#header").load("/template/menu.html");
+        //   $("#footer").load("footer.html");
+        });
+    </script> -->
+
+    <!-- <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>MSC Company</title>
+</head>
+<body id="bodyBg-register">
+    <!-- <div class="container-fluid">
+        <header id="headerLayout" class="d-flex flex-wrap align-items-center justify-content-center py-3 mb-4">
+            <nav class="navbar-default navbar-static-top navbar-light">
+                <div class="navbar-header">
+                    <span id="logo"></span>
+                </div>
+                <div class="fw-bolder text-dark">
+                    MSC COLOMBIA
+                </div>
+            </nav>
+        </header>
+    </div><br> -->
+
+    <div class="container-fluid">
+        <div class="row g-5">
+            <!-- <section id="bodySection"> -->
+              <div class="col-md-8"><br>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="card offset-0 col-7 bottom-align">
+                            <div class="card-body">
+                                <form name="F" action="MSC.SOLICITUD_FACTURA" method="post">
+                                    <div id="#" class="mfaForm">
+                                    <div class="intro grid-x align-center">
+                                        <img src="/images/logo-msc.svg" class="card-img-top" alt="msc" width="50" height="50">
+                                    </div>
+                                    <div class="row ">
+                                        <div class="col-md-4">
+                                            <label for="signInName" class="fw-bold">NIT</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" >
+                                        </div>
+                                    </div><br>
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4">
+                                            <label for="signInName" class="fw-bolder">Razón Social</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text">
+                                        </div>
+                                    </div><br>
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4">
+                                            <label for="signInName" class="fw-bolder">Teléfono</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text">
+                                        </div>
+                                    </div><br>
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4">
+                                            <label for="signInName" class="fw-bolder">Dirección</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text">
+                                        </div>
+                                    </div><br>
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4">
+                                            <label for="signInName" class="fw-bolder">Email</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text">
+                                        </div>
+                                    </div><br>
+                                    <div class="row ">
+                                        <div class="col-md-4">
+                                            <label for="signInName" class="fw-bold">Nombre Contacto</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text">
+                                        </div>
+                                    </div><br>
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4">
+                                            <label for="signInName" class="fw-bolder">Cargo Contacto</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text">
+                                        </div>
+                                    </div><br>
+                                    <div class="row ">
+                                        <div class="col-md-4">
+                                            <label for="signInName" class="fw-bold">Ciudad</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select >
+                                                <option value="1">SELECCIÓN</option>
+                                            </select>
+                                        </div>
+                                    </div><br>
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4">
+                                            <label for="signInName" class="fw-bolder">Régimen</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select >
+                                                <option value="1">COMUN</option>
+                                                <option value="2">SIMPLIFICADO</option>
+                                            </select>
+                                        </div>
+                                    </div><br>
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4">
+                                            <label for="signInName" class="fw-bolder">Código CIIU</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text">
+                                        </div>
+                                    </div><br>
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4">
+                                            <label for="signInName" class="fw-bolder">Frase de Recordación Clave</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text">
+                                        </div>
+                                    </div><br>                                    
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4">
+                                            <label for="signInName" class="fw-bolder">Clave</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text">
+                                        </div>
+                                    </div><br>                                    
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4">
+                                            <label for="signInName" class="fw-bolder">Confirmar clave</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text">
+                                        </div>
+                                    </div><br>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="  offset-0 col-7 bottom-align bg-transparent">
+                            <div class="#">
+                                <div class="msc-main-box col-md-12 bg-transparent">
+                                    <div class="msc-navigation">
+                                        <button class="msc-search-schedule__nav-button msc-search-schedule__nav-button--active">
+                                            <span class="msc-search-schedule__nav-button-label text-white">REGISTRARSE</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- </section> -->
+        </div>
+    </div>
+    <!-- <script language="javascript">
+        var sepmiles = ",";
+        var formatofecha = "DD/MM/YYYY";
+        document.F.paccion.value = "";
+        function Salvar() { esconder();
+            if(!validar(document.F.PTWEB_NIT, "Nit", "ENT", 0, "OBL", "VISIBLE", 1000, 999999999999))
+                return false;
+            if(!validar(document.F.PTWEB_CLAVE, "Clave", "ALF", 0, "OBL", "VISIBLE", 0, 0))
+                return false;
+            document.F.paccion.value = "S";
+            return true;
+        }
+    </script> -->
+</body>
+</html>

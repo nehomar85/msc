@@ -1,0 +1,976 @@
+@font-face {
+  font-family: 'msc-icomoon';
+  src: url("https://hqew1mysai03b2c.blob.core.windows.net/ci-cd/icomoon/icomoon.eot");
+  src: url("https://hqew1mysai03b2c.blob.core.windows.net/ci-cd/icomoon/icomoon.eot#iefix") format('embedded-opentype'), url("https://hqew1mysai03b2c.blob.core.windows.net/ci-cd/icomoon/icomoon.ttf") format('truetype'), url("https://hqew1mysai03b2c.blob.core.windows.net/ci-cd/icomoon/icomoon.woff") format('woff'), url("https://hqew1mysai03b2c.blob.core.windows.net/ci-cd/icomoon/icomoon.svg#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'msc-icomoon', sans-serif !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-invoice::before {
+  content: "\e902";
+}
+.icon-c-vgm-icon::before {
+  content: "\ea4b";
+}
+.icon-c-vessel::before {
+  content: "\ea4c";
+}
+.icon-c-buyers::before {
+  content: "\ea4d";
+}
+.icon-c-calendar::before {
+  content: "\ea4e";
+}
+.icon-c-cash-flow::before {
+  content: "\ea4f";
+}
+.icon-c-coin-currencies::before {
+  content: "\ea50";
+}
+.icon-c-contract::before {
+  content: "\ea51";
+}
+.icon-c-msc-trade-finance::before {
+  content: "\ea52";
+}
+.icon-c-cold-chain-management::before {
+  content: "\ea30";
+}
+.icon-c-control-procedures::before {
+  content: "\ea31";
+}
+.icon-c-controlled-atmosphere::before {
+  content: "\ea32";
+}
+.icon-c-customs-clearance::before {
+  content: "\ea33";
+}
+.icon-c-dehumidification::before {
+  content: "\ea34";
+}
+.icon-c-pre-trip-inspection::before {
+  content: "\ea35";
+}
+.icon-c-reefer-service::before {
+  content: "\ea36";
+}
+.icon-c-vent-settings::before {
+  content: "\ea37";
+}
+.icon-c-conro::before {
+  content: "\ea38";
+}
+.icon-c-container-flat-rack::before {
+  content: "\ea39";
+}
+.icon-c-lashing::before {
+  content: "\ea3a";
+}
+.icon-c-loading-propeller::before {
+  content: "\ea3b";
+}
+.icon-c-project-cargo-truck::before {
+  content: "\ea3c";
+}
+.icon-c-project-cargo::before {
+  content: "\ea3d";
+}
+.icon-c-securing::before {
+  content: "\ea3e";
+}
+.icon-c-barge::before {
+  content: "\ea3f";
+}
+.icon-c-delivery::before {
+  content: "\ea40";
+}
+.icon-c-depot::before {
+  content: "\ea41";
+}
+.icon-c-door-to-door-service::before {
+  content: "\ea42";
+}
+.icon-c-inland::before {
+  content: "\ea43";
+}
+.icon-c-train::before {
+  content: "\ea44";
+}
+.icon-c-truck-dry::before {
+  content: "\ea45";
+}
+.icon-c-truck-reefer::before {
+  content: "\ea46";
+}
+.icon-c-warehouse-dry::before {
+  content: "\ea47";
+}
+.icon-c-warehouse-reefer::before {
+  content: "\ea48";
+}
+.icon-c-insurance-cargo::before {
+  content: "\ea49";
+}
+.icon-c-insurance-coverage::before {
+  content: "\ea4a";
+}
+.icon-c-arrival::before {
+  content: "\ea18";
+}
+.icon-c-export::before {
+  content: "\ea19";
+}
+.icon-c-global-reach::before {
+  content: "\ea1a";
+}
+.icon-c-import::before {
+  content: "\ea1b";
+}
+.icon-c-offices::before {
+  content: "\ea1c";
+}
+.icon-c-ports-of-call::before {
+  content: "\ea1d";
+}
+.icon-c-routes::before {
+  content: "\ea1e";
+}
+.icon-c-transit-time::before {
+  content: "\ea1f";
+}
+.icon-c-voyage::before {
+  content: "\ea20";
+}
+.icon-c-auditing::before {
+  content: "\ea21";
+}
+.icon-c-customer-relationship::before {
+  content: "\ea22";
+}
+.icon-c-customer-service-clock-24h::before {
+  content: "\ea23";
+}
+.icon-c-customer-service::before {
+  content: "\ea24";
+}
+.icon-c-data-accuracy::before {
+  content: "\ea25";
+}
+.icon-c-e-Business-icon::before {
+  content: "\ea26";
+}
+.icon-c-employees::before {
+  content: "\ea27";
+}
+.icon-c-knowledge-of-local-market-icon::before {
+  content: "\ea28";
+}
+.icon-c-msc-customer::before {
+  content: "\ea29";
+}
+.icon-c-msc-experts::before {
+  content: "\ea2a";
+}
+.icon-c-self-service::before {
+  content: "\ea2b";
+}
+.icon-c-traceability::before {
+  content: "\ea2c";
+}
+.icon-c-training::before {
+  content: "\ea2d";
+}
+.icon-c-final-destination::before {
+  content: "\ea2e";
+}
+.icon-c-specialised-service::before {
+  content: "\ea2f";
+}
+.icon-c-cross-trading::before {
+  content: "\ea04";
+}
+.icon-c-20-dry-container-logo-size::before {
+  content: "\ea05";
+}
+.icon-c-20-dry-container-logo::before {
+  content: "\ea06";
+}
+.icon-c-20-dry-container-size::before {
+  content: "\ea07";
+}
+.icon-c-20-reefer-container-size::before {
+  content: "\ea08";
+}
+.icon-c-20-reefer-container::before {
+  content: "\ea09";
+}
+.icon-c-40-dry-container-logo-size::before {
+  content: "\ea0a";
+}
+.icon-c-40-dry-container-logo::before {
+  content: "\ea0b";
+}
+.icon-c-40-dry-container-size::before {
+  content: "\ea0c";
+}
+.icon-c-40-reefer-container-size::before {
+  content: "\ea0d";
+}
+.icon-c-40-reefer-container::before {
+  content: "\ea0e";
+}
+.icon-c-container-loading::before {
+  content: "\ea0f";
+}
+.icon-c-container-mix-dry::before {
+  content: "\ea10";
+}
+.icon-c-container-mix-reefer::before {
+  content: "\ea11";
+}
+.icon-c-container-mix::before {
+  content: "\ea12";
+}
+.icon-c-assets-and-technology::before {
+  content: "\ea13";
+}
+.icon-c-inventory::before {
+  content: "\ea14";
+}
+.icon-c-set-up::before {
+  content: "\ea15";
+}
+.icon-c-smart-container-tracking::before {
+  content: "\ea16";
+}
+.icon-c-waste::before {
+  content: "\ea17";
+}
+.icon-arrow-back::before {
+  content: "\ea03";
+}
+.icon-c-w-goods-electronics::before {
+  content: "\e9e0";
+}
+.icon-c-carrot::before {
+  content: "\e9e1";
+}
+.icon-c-vegetables-capsicup::before {
+  content: "\e9e2";
+}
+.icon-c-vegetables-mix::before {
+  content: "\e9e3";
+}
+.icon-c-seafood-mix::before {
+  content: "\e9e4";
+}
+.icon-c-seafood::before {
+  content: "\e9e5";
+}
+.icon-c-furniture::before {
+  content: "\e9e6";
+}
+.icon-c-retail::before {
+  content: "\e9e7";
+}
+.icon-c-plastics-rubber::before {
+  content: "\e9e8";
+}
+.icon-c-pharmaceuticals::before {
+  content: "\e9e9";
+}
+.icon-c-mining-minerals::before {
+  content: "\e9ea";
+}
+.icon-c-meat-and-poultry::before {
+  content: "\e9eb";
+}
+.icon-c-meat::before {
+  content: "\e9ec";
+}
+.icon-c-poultry::before {
+  content: "\e9ed";
+}
+.icon-c-machinery .path1::before {
+  content: "\e9ee";
+  color: #000000;
+}
+.icon-c-machinery .path2::before {
+  content: "\e9ef";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-machinery .path3::before {
+  content: "\e9f0";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-machinery .path4::before {
+  content: "\e9f1";
+  margin-left: -1em;
+  color: #1d1d1c;
+}
+.icon-c-machinery .path5::before {
+  content: "\e9f2";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-machinery .path6::before {
+  content: "\e9f3";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-distribution-area-cashews::before {
+  content: "\e9f4";
+}
+.icon-c-fruit-apple::before {
+  content: "\e9f5";
+}
+.icon-c-fruit-banana::before {
+  content: "\e9f6";
+}
+.icon-c-fruit-cashew::before {
+  content: "\e9f7";
+}
+.icon-c-fruit-cocoa::before {
+  content: "\e9f8";
+}
+.icon-c-fruit-dried-fruit-nut::before {
+  content: "\e9f9";
+}
+.icon-c-fruit-kiwi::before {
+  content: "\e9fa";
+}
+.icon-c-fruit-lemon::before {
+  content: "\e9fb";
+}
+.icon-c-fruit-mango::before {
+  content: "\e9fc";
+}
+.icon-c-fruit-mix::before {
+  content: "\e9fd";
+}
+.icon-c-fruit-orange::before {
+  content: "\e9fe";
+}
+.icon-c-fruit-producer::before {
+  content: "\e9ff";
+}
+.icon-c-fruit-vegetables-mix::before {
+  content: "\ea00";
+}
+.icon-c-melon::before {
+  content: "\ea01";
+}
+.icon-c-forestry-industry::before {
+  content: "\ea02";
+}
+.icon-c-dairy::before {
+  content: "\e9cf";
+}
+.icon-c-chemicals::before {
+  content: "\e9d0";
+}
+.icon-c-petrochemicals::before {
+  content: "\e9d1";
+}
+.icon-c-beverages::before {
+  content: "\e9d2";
+}
+.icon-c-food-beverage::before {
+  content: "\e9d3";
+}
+.icon-c-automotive::before {
+  content: "\e9d4";
+}
+.icon-c-apparel::before {
+  content: "\e9d5";
+}
+.icon-c-cotton-consumer::before {
+  content: "\e9d6";
+}
+.icon-c-cotton-spinning::before {
+  content: "\e9d7";
+}
+.icon-c-textile-manufacturing::before {
+  content: "\e9d8";
+}
+.icon-c-agriculture::before {
+  content: "\e9d9";
+}
+.icon-c-coffee::before {
+  content: "\e9da";
+}
+.icon-c-cotton::before {
+  content: "\e9db";
+}
+.icon-c-rice::before {
+  content: "\e9dc";
+}
+.icon-c-soya::before {
+  content: "\e9dd";
+}
+.icon-c-sugar::before {
+  content: "\e9de";
+}
+.icon-c-tobacco::before {
+  content: "\e9df";
+}
+.icon-c-care-for-people-neg .path1::before {
+  content: "\e978";
+  color: #000000;
+}
+.icon-c-care-for-people-neg .path2::before {
+  content: "\e979";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-care-for-people-neg .path3::before {
+  content: "\e97a";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-care-for-people-neg .path4::before {
+  content: "\e97b";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-care-for-people-neg .path5::before {
+  content: "\e97c";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-care-for-people-neg .path6::before {
+  content: "\e97d";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-care-for-people-neg .path7::before {
+  content: "\e97e";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-care-for-people-neg .path8::before {
+  content: "\e97f";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-care-for-people-pos .path1::before {
+  content: "\e980";
+  color: #f0d283;
+}
+.icon-c-care-for-people-pos .path2::before {
+  content: "\e981";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-care-for-people-pos .path3::before {
+  content: "\e982";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-care-for-people-pos .path4::before {
+  content: "\e983";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-care-for-people-pos .path5::before {
+  content: "\e984";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-care-for-people-pos .path6::before {
+  content: "\e985";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-care-for-people-pos .path7::before {
+  content: "\e986";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-care-for-people-pos .path8::before {
+  content: "\e987";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-care-for-people::before {
+  content: "\e988";
+}
+.icon-c-continuous-evolution-neg .path1::before {
+  content: "\e989";
+  color: #000000;
+}
+.icon-c-continuous-evolution-neg .path2::before {
+  content: "\e98a";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-continuous-evolution-neg .path3::before {
+  content: "\e98b";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-continuous-evolution-neg .path4::before {
+  content: "\e98c";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-continuous-evolution-neg .path5::before {
+  content: "\e98d";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-continuous-evolution-neg .path6::before {
+  content: "\e98e";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-continuous-evolution-pos .path1::before {
+  content: "\e98f";
+  color: #f0d283;
+}
+.icon-c-continuous-evolution-pos .path2::before {
+  content: "\e990";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-continuous-evolution-pos .path3::before {
+  content: "\e991";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-continuous-evolution-pos .path4::before {
+  content: "\e992";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-continuous-evolution-pos .path5::before {
+  content: "\e993";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-continuous-evolution-pos .path6::before {
+  content: "\e994";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-continuous-evolution::before {
+  content: "\e995";
+}
+.icon-c-equal-opportunities-neg .path1::before {
+  content: "\e996";
+  color: #000000;
+}
+.icon-c-equal-opportunities-neg .path2::before {
+  content: "\e997";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-equal-opportunities-neg .path3::before {
+  content: "\e998";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-equal-opportunities-neg .path4::before {
+  content: "\e999";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-equal-opportunities-neg .path5::before {
+  content: "\e99a";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-equal-opportunities-neg .path6::before {
+  content: "\e99b";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-equal-opportunities-neg .path7::before {
+  content: "\e99c";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-equal-opportunities-neg .path8::before {
+  content: "\e99d";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-equal-opportunities-pos .path1::before {
+  content: "\e99e";
+  color: #f0d283;
+}
+.icon-c-equal-opportunities-pos .path2::before {
+  content: "\e99f";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-equal-opportunities-pos .path3::before {
+  content: "\e9a0";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-equal-opportunities-pos .path4::before {
+  content: "\e9a1";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-equal-opportunities-pos .path5::before {
+  content: "\e9a2";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-equal-opportunities-pos .path6::before {
+  content: "\e9a3";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-equal-opportunities-pos .path7::before {
+  content: "\e9a4";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-equal-opportunities-pos .path8::before {
+  content: "\e9a5";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-equal-opportunities::before {
+  content: "\e9a6";
+}
+.icon-c-family-company-neg .path1::before {
+  content: "\e9a7";
+  color: #000000;
+}
+.icon-c-family-company-neg .path2::before {
+  content: "\e9a8";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-family-company-neg .path3::before {
+  content: "\e9a9";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-family-company-neg .path4::before {
+  content: "\e9aa";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-family-company-neg .path5::before {
+  content: "\e9ab";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-family-company-neg .path6::before {
+  content: "\e9ac";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-family-company-neg .path7::before {
+  content: "\e9ad";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-family-company-neg .path8::before {
+  content: "\e9ae";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-family-company-neg .path9::before {
+  content: "\e9af";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-family-company-neg .path10::before {
+  content: "\e9b0";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-family-company-neg .path11::before {
+  content: "\e9b1";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-family-company-neg .path12::before {
+  content: "\e9b2";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-family-company-pos .path1::before {
+  content: "\e9b3";
+  color: #f0d283;
+}
+.icon-c-family-company-pos .path2::before {
+  content: "\e9b4";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-family-company-pos .path3::before {
+  content: "\e9b5";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-family-company-pos .path4::before {
+  content: "\e9b6";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-family-company-pos .path5::before {
+  content: "\e9b7";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-family-company-pos .path6::before {
+  content: "\e9b8";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-family-company-pos .path7::before {
+  content: "\e9b9";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-family-company-pos .path8::before {
+  content: "\e9ba";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-family-company-pos .path9::before {
+  content: "\e9bb";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-family-company-pos .path10::before {
+  content: "\e9bc";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-family-company-pos .path11::before {
+  content: "\e9bd";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-family-company-pos .path12::before {
+  content: "\e9be";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-family-company::before {
+  content: "\e9bf";
+}
+.icon-c-passion-black-neg .path1::before {
+  content: "\e9c0";
+  color: #000000;
+}
+.icon-c-passion-black-neg .path2::before {
+  content: "\e9c1";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-passion-black-neg .path3::before {
+  content: "\e9c2";
+  margin-left: -1em;
+  color: #f0d283;
+}
+.icon-c-passion-black-pos .path1::before {
+  content: "\e9c3";
+  color: #f0d283;
+}
+.icon-c-passion-black-pos .path2::before {
+  content: "\e9c4";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-passion-black-pos .path3::before {
+  content: "\e9c5";
+  margin-left: -1em;
+  color: #000000;
+}
+.icon-c-passion-black::before {
+  content: "\e9c6";
+}
+.icon-c-complete::before {
+  content: "\e9c7";
+}
+.icon-c-development::before {
+  content: "\e9c8";
+}
+.icon-c-expectations::before {
+  content: "\e9c9";
+}
+.icon-c-feedback::before {
+  content: "\e9ca";
+}
+.icon-c-list::before {
+  content: "\e9cb";
+}
+.icon-c-meet::before {
+  content: "\e9cc";
+}
+.icon-c-reinforcement::before {
+  content: "\e9cd";
+}
+.icon-c-coaching::before {
+  content: "\e9ce";
+}
+.icon-c-banks::before {
+  content: "\e965";
+}
+.icon-c-booking::before {
+  content: "\e966";
+}
+.icon-c-business-partners::before {
+  content: "\e967";
+}
+.icon-c-contact-card::before {
+  content: "\e968";
+}
+.icon-c-cost-efficient::before {
+  content: "\e969";
+}
+.icon-c-customer-interactions::before {
+  content: "\e96a";
+}
+.icon-c-customer-registration::before {
+  content: "\e96b";
+}
+.icon-c-customer-scale-up::before {
+  content: "\e96c";
+}
+.icon-c-eBL-platform::before {
+  content: "\e96d";
+}
+.icon-c-eBL-solution::before {
+  content: "\e96e";
+}
+.icon-c-faqs::before {
+  content: "\e96f";
+}
+.icon-c-fast::before {
+  content: "\e970";
+}
+.icon-c-green::before {
+  content: "\e971";
+}
+.icon-c-live-session::before {
+  content: "\e972";
+}
+.icon-c-questions-answers::before {
+  content: "\e973";
+}
+.icon-c-safe::before {
+  content: "\e974";
+}
+.icon-c-simple::before {
+  content: "\e975";
+}
+.icon-c-target::before {
+  content: "\e976";
+}
+.icon-c-email::before {
+  content: "\e977";
+}
+.icon-globe::before {
+  content: "\e95f";
+}
+.icon-search::before {
+  content: "\e960";
+}
+.icon-user-black::before {
+  content: "\e961";
+}
+.icon-dash::before {
+  content: "\e95e";
+}
+.icon-acrobat::before {
+  content: "\e900";
+}
+.icon-anchor::before {
+  content: "\e901";
+}
+.icon-check::before {
+  content: "\e919";
+  color: #000;
+}
+.icon-chevron::before {
+  content: "\e91a";
+}
+.icon-close::before {
+  content: "\e91c";
+}
+.icon-connect::before {
+  content: "\e91d";
+}
+.icon-download::before {
+  content: "\e927";
+}
+.icon-exchange::before {
+  content: "\e92a";
+}
+.icon-expand::before {
+  content: "\e92b";
+  color: #000;
+}
+.icon-facebook::before {
+  content: "\e92c";
+}
+.icon-hearth::before {
+  content: "\e92e";
+}
+.icon-instagram::before {
+  content: "\e95d";
+}
+.icon-linkedin::before {
+  content: "\e932";
+}
+.icon-mail::before {
+  content: "\e939";
+}
+.icon-marker::before {
+  content: "\e93a";
+}
+.icon-msc::before {
+  content: "\e93e";
+  color: #000;
+}
+.icon-mute-off::before {
+  content: "\e93f";
+}
+.icon-mute-on::before {
+  content: "\e940";
+}
+.icon-play::before {
+  content: "\e942";
+  color: #000;
+}
+.icon-print::before {
+  content: "\e943";
+}
+.icon-question::before {
+  content: "\e945";
+}
+.icon-reset::before {
+  content: "\e946";
+}
+.icon-twitter::before {
+  content: "\e959";
+}
+.icon-user::before {
+  content: "\e95a";
+}
