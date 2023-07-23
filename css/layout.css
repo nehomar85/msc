@@ -591,7 +591,7 @@ button[style*="display: inline"] {
 #bodySection, #bodyBg-login, #bodyBg-register, #bodyBg-recovery, #bodyBg-menu-1, #bodyBg-menu-2, #bodyBg-menu-3, #bodyBg-menu-4 {
   float: none;
   width: 100%;
-  /* background-image: url("msc/images/ship/msc_ship_login.jpg"); */
+  /* background-image: url("/images/ship/msc_ship_login.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
