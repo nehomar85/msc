@@ -588,7 +588,7 @@ button[style*="display: inline"] {
   height: 0.4rem; */
 }
 
-#bodySection, #bodyBg-login, #bodyBg-register, #bodyBg-recovery, #bodyBg-menu-1, #bodyBg-menu-2, #bodyBg-menu-3, #bodyBg-menu-4 {
+#bodySection, #bodyBg-login, #bodyBg-register, #bodyBg-recovery, #bodyBg-menu-1, #bodyBg-menu-2, #bodyBg-menu-3, #bodyBg-menu-4, #bodyBg-menu-5 {
   float: none;
   width: 100%;
   /* background-image: url("/images/ship/msc_ship_login.jpg"); */
@@ -600,7 +600,7 @@ button[style*="display: inline"] {
   align-items: center;
   padding: 0rem 0;
 }
-#bodySection.fixed-background, #bodyBg-login, #bodyBg-register, #bodyBg-recovery, #bodyBg-menu-1, #bodyBg-menu-2, #bodyBg-menu-3, #bodyBg-menu-4 {
+#bodySection.fixed-background, #bodyBg-login, #bodyBg-register, #bodyBg-recovery, #bodyBg-menu-1, #bodyBg-menu-2, #bodyBg-menu-3, #bodyBg-menu-4, #bodyBg-menu-5 {
   background-attachment: fixed;
   padding-bottom: 0rem;
 }
@@ -613,24 +613,26 @@ button[style*="display: inline"] {
   margin: 0 auto;
 }
 #bodyBg-login {
-  background-image: url("../images/ship/msc_ship_login.jpg");
+  background-image: url("/images/ship/msc_ship_login.jpg");
 }
 #bodyBg-register, #bodyBg-recovery {
-  background-image: url("../images/ship/msc_ship_register.jpg");
+  background-image: url("/images/ship/msc_ship_register.jpg");
 }
 #bodyBg-menu-1 {
-  background-image: url("../images/ship/msc_ship1.jpg");
+  background-image: url("/images/ship/msc_ship1.jpg");
 }
 #bodyBg-menu-2 {
-  background-image: url("../images/ship/msc_ship2.jpg");
+  background-image: url("/images/ship/msc_ship2.jpg");
 }
 #bodyBg-menu-3 {
-  background-image: url("../images/ship/msc_ship3.jpg");
+  background-image: url("/images/ship/msc_ship3.jpg");
 }
 #bodyBg-menu-4 {
-  background-image: url("../images/ship/msc_ship4.jpg");
+  background-image: url("/images/ship/msc_ship4.jpg");
 }
-
+#bodyBg-menu-5 {
+  background-image: url("/images/ship/msc_ship5.jpg");
+}
 
 #registrationForm {
   width: 100%;
@@ -644,7 +646,7 @@ button[style*="display: inline"] {
 #registrationForm .divStepRegistration h5::after {
   content: '';
   display: block;
-  width: 6rem;
+  width: 15.5rem;
   height: 0.4rem;
   background: #EED484;
   border-radius: 300px;
@@ -1045,7 +1047,7 @@ button[style*="display: inline"] {
   width: 85%;
   line-height: 20px;
 }
-.mfaForm input[type=text] {
+.mfaForm input[type=text], input[type=date] {
   border-radius: 1px 0 0 1px;
   background: #f2f2f2 !important;
   color: #222221;
@@ -1056,6 +1058,43 @@ button[style*="display: inline"] {
   padding: 0 16px;
   font-size: 1rem;
   padding: 0px 8px !important;
+}
+.mfaForm input[type=date] {
+  border-radius: 1px 0 0 1px;
+  background: #f2f2f2 !important;
+  color: #222221;
+  border: 1px solid #f2f2f2 !important;
+  height: 2rem;
+  box-shadow: none !important;
+  width: 100%;
+  padding: 0 16px;
+  font-size: 1rem;
+  padding: 0px 8px !important;
+}
+::-webkit-calendar-picker-indicator {
+  /*background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 24 24"><path fill="%23bbbbbb" d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/></svg>');*/
+}
+.mfaForm input[type=date]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background-repeat:  no-repeat;
+  width: 25px;
+  height: 25px;
+  border-width: thin;
+  cursor: pointer;
+}
+.mfaForm input[type=date]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  left: 7%;
+}
+.mfaForm ::-webkit-datetime-edit-fields-wrapper {
+  position: relative;
+  left: 40%;
+}
+.mfa Form input::-webkit-datetime-edit {
+  position: relative;
+  left: 10%;
 }
 .mfaForm input[type=text].errorInput {
   border: 1px solid red;
