@@ -613,7 +613,7 @@ button[style*="display: inline"] {
   margin: 0 auto;
 }
 #bodyBg-login {
-  background-image: url("/images/ship/msc_ship_login.jpg");
+  background-image: url("../images/ship/msc_ship_login.jpg");
 }
 #bodyBg-register, #bodyBg-recovery {
   background-image: url("../images/ship/msc_ship_register.jpg");
