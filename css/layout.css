@@ -60,22 +60,22 @@
 }
 ::-webkit-input-placeholder {
   /* WebKit browsers */
-  color: transparent !important;
+  color: #b4afaf !important;
 }
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: transparent !important;
+  color: #b4afaf !important;
 }
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: transparent !important;
+  color: #b4afaf !important;
 }
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
-  color: transparent !important;
+  color: #b4afaf !important;
 }
 *::placeholder {
-  color: transparent !important;
+  color: #b4afaf !important;
 }
 body {
   font-family: 'Archivo', sans-serif;
