@@ -1047,7 +1047,7 @@ button[style*="display: inline"] {
   width: 85%;
   line-height: 20px;
 }
-.mfaForm input[type=text], input[type=date], input[type=number], input[type=password] {
+.mfaForm input[type=text], .mfaForm input[type=date], .mfaForm input[type=number], .mfaForm input[type=password] {
   border-radius: 1px 0 0 1px;
   background: #f2f2f2 !important;
   color: #222221;
