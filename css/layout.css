@@ -1406,6 +1406,7 @@ footer:not(.msc-footer) a:hover {
 .msc-search-schedule__nav-button-label:hover {
   font-weight: bold;
 }
+
 .msc-search-schedule__nav-button:after {
   content: "";
   display: block;
