@@ -1403,7 +1403,9 @@ footer:not(.msc-footer) a:hover {
   /* font-size: 1.4rem; */
   margin-bottom: 1rem;
 }
-
+.msc-search-schedule__nav-button-label:hover {
+  font-weight: bold;
+}
 .msc-search-schedule__nav-button:after {
   content: "";
   display: block;
