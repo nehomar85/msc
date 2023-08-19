@@ -1105,12 +1105,15 @@ button[style*="display: inline"] {
 .mfaForm input[type=text]:active,
 .mfaForm input[type=email]:active,
 .mfaForm input[type=password]:active,
+.mfaForm input[type=number]:active,
 .mfaForm input[type=text]:focus,
 .mfaForm input[type=email]:focus,
 .mfaForm input[type=password]:focus,
+.mfaForm input[type=number]:focus,
 .mfaForm input[type=text]:focus-visible,
 .mfaForm input[type=email]:focus-visible,
-.mfaForm input[type=password]:focus-visible {
+.mfaForm input[type=password]:focus-visible,
+.mfaForm input[type=number]:focus-visible {
   border: 1px solid #eed484 !important;
   outline: none;
 }
