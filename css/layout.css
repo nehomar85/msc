@@ -574,6 +574,37 @@ button[style*="display: inline"] {
   margin-top: 20px;
 }
 
+.nav-underline .nav-link.active, .nav-underline .show>.nav-link {
+  font-weight: 700;
+  color: var(--bs-nav-underline-link-active-color);
+  border-bottom-color: #eed484;
+  border-bottom-width: 0.4rem;
+}
+
+.nav-underline .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+  border-bottom: solid transparent;
+  border-bottom-width: 0.4rem;
+}
+
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: #000;
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-underline .nav-link:focus, .nav-underline .nav-link:hover {
+  border-bottom-color: #eed484;
+  color: #000;
+}
+
 .nav-pills-msc .nav-link-msc {
   border: 0;
   background-color: transparent;
@@ -1335,16 +1366,20 @@ footer:not(.msc-footer) a:hover {
 /*****/
 
 /* msc-navigation */
-.msc-navigation {
+.msc-navigation, .msc-navigation-link {
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
   align-items: center;
   position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.msc-navigation {
   padding-bottom: 2rem
 }
 
-.msc-navigation:after {
+.msc-navigation:after, .msc-navigation-link:after {
   background: #f2f2f2;
   border-radius: 2rem;
   bottom: -1.4rem;
@@ -1357,7 +1392,7 @@ footer:not(.msc-footer) a:hover {
 }
 
 @media print,screen and (max-width: 24em) {
-  .msc-navigation {
+  .msc-navigation, .msc-navigation-link {
       display:block;
       padding-bottom:1rem;
       margin:.8rem auto;
